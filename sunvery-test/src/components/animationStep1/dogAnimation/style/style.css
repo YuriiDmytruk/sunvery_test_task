@@ -1,0 +1,44 @@
+.imageContainer {
+    position: absolute;
+    width: 155px;
+    height: 146px;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    width: 155px;
+    height: 151px;
+    left: 1165px;
+    top: 190px;
+    overflow: hidden;
+}
+
+.elipse {
+
+    position: absolute;
+    width: 155px;
+    height: 79px;
+    left: 0px;
+    top: 67px;
+
+    background: #F35669;
+    box-shadow: 0px 5px 0px #9B4C4A;
+    border-radius: 200px;
+}
+
+.imageTop {
+    position: absolute;
+    width: 117px;
+    height: 77px;
+    left: 19px;
+    top: 0px;
+}
+
+.imageBottom {
+    position: absolute;
+    width: 155px;
+    height: 79px;
+    left: 0px;
+    top: 67px;
+}
