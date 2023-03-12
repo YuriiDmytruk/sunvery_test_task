@@ -1,0 +1,16 @@
+.App {
+    position: relative;
+}
+
+.boot {
+    position: absolute;
+    width: 480px;
+    height: 441.02px;
+    left: 332.36px;
+    top: 445px;
+    transform: rotate(9.31deg);
+    z-index: 9;
+    background-size: 453.4px 441.02px;
+    background-repeat: no-repeat;
+    z-index: 3;
+}

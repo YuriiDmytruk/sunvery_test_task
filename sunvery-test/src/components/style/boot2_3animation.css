@@ -1,0 +1,36 @@
+#boot2-3 {
+    animation: changeBg_2 1s;
+}
+
+@keyframes changeBg_2 {
+
+    0% {
+        opacity: 1;
+        background-image: url("../img/boot_2.png");
+    }
+
+    20% {
+        opacity: 0.7;
+        background-image: url("../img/boot_2.png");
+    }
+
+    40% {
+        opacity: 0.5;
+        background-image: url("../img/boot_2.png");
+    }
+
+    60% {
+        opacity: 0.5;
+        background-image: url("../img/boot_3.png");
+    }
+
+    80% {
+        opacity: 0.7;
+        background-image: url("../img/boot_3.png");
+    }
+
+    100% {
+        opacity: 1;
+        background-image: url("../img/boot_3.png");
+    }
+}

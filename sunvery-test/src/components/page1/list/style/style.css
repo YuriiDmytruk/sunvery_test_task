@@ -1,0 +1,59 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 999px;
+    height: 16px;
+    left: 118px;
+    top: 190px;
+}
+
+.color-text {
+    height: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    text-transform: uppercase;
+
+    /* Blue */
+
+    color: #2DA6B1;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.color-text:hover {
+    color: #F35669;
+}
+
+.separator {
+    width: 5px;
+    height: 5px;
+
+    /* Blue */
+
+    background: #2DA6B1;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    border-radius: 50%;
+}

@@ -1,0 +1,302 @@
+.page3 {
+    position: absolute;
+    width: 1600px;
+    height: 825px;
+
+    top: -40px;
+    /* White */
+
+    background: #F35669;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    position: absolute;
+    width: 483px;
+    height: 304px;
+    left: 120px;
+    top: 310.9px;
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 483px;
+    height: 212px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.therefore {
+    width: 483px;
+    height: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    /* or 42px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.just {
+    width: 324px;
+    height: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.tag-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 10px;
+
+    width: 144px;
+    height: 17px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.schews {
+    width: 146px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 140%;
+    /* or 18px */
+
+
+    /* Purple */
+
+    color: #F35669;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.img-2-p-3 {
+    position: absolute;
+    width: 107px;
+    height: 94px;
+    left: 1228px;
+    top: 127px;
+}
+
+.img-3-p-3 {
+    position: absolute;
+    width: 107px;
+    height: 105px;
+    left: 1228px;
+    top: 654px;
+}
+
+.elipse-1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 450.13px;
+    height: 450.13px;
+    left: 1215px;
+    top: 198.43px;
+
+    /* White */
+
+    border: 2px solid #FFFFFF;
+
+    border-radius: 50%;
+}
+
+.elipse-2 {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 1162px;
+    top: 370.9px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.elipse-3 {
+    position: absolute;
+    width: 30.01px;
+    height: 30.01px;
+    left: 1304.64px;
+    top: 221.24px;
+
+    /* White */
+
+    background: #FFFFFF;
+
+    border-radius: 50%;
+}
+
+.elipse-4 {
+    position: absolute;
+    width: 30.01px;
+    height: 30.01px;
+    left: 1304.64px;
+    top: 599.34px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.elipse-5 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 139px;
+    height: 139px;
+    left: 1392.05px;
+    top: 352.81px;
+
+    /* White */
+
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+
+    z-index: 3;
+}
+
+.elipse-6 {
+    position: absolute;
+    width: 10.01px;
+    height: 10.01px;
+    left: 1450.64px;
+    top: 349px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 50%;
+
+    z-index: 5;
+}
+
+.elipse-7 {
+    position: absolute;
+    width: 10.01px;
+    height: 10.01px;
+    left: 1401.64px;
+    top: 456px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 50%;
+
+    z-index: 5;
+}
+
+.one {
+    position: absolute;
+    width: 21px;
+    height: 44px;
+    left: 1205px;
+    top: 401px;
+
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+
+    /* Purple */
+
+    color: #F35669;
+}
+
+.text-group {
+    position: absolute;
+    width: 77px;
+    height: 111px;
+    left: 1379px;
+    top: 351px;
+
+    background-color: #F35669;
+
+    z-index: 4;
+}
+
+.letter {
+    position: absolute;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140%;
+    /* identical to box height, or 14px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}

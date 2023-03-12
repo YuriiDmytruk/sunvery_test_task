@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock&display=swap');
+
+.page1 {
+    position: absolute;
+    width: 1440px;
+    height: 825px;
+
+    /* White */
+
+    background: #FFFFFF;
+}
+
+.natural {
+    position: absolute;
+    width: 1027px;
+    height: 96px;
+    left: 120px;
+    top: 245px;
+
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 80%;
+    /* identical to box height, or 96px */
+
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+
+    /* Blue */
+
+    color: #2DA6B1;
+}
+
+.for-dogs {
+    position: absolute;
+    width: 544px;
+    height: 96px;
+    left: 776px;
+    top: 485px;
+
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 80%;
+    /* identical to box height, or 96px */
+
+    text-align: right;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+
+    /* Blue */
+
+    color: #2DA6B1;
+}
+
+.dental {
+    position: absolute;
+    width: 400px;
+    height: 96px;
+    left: 120px;
+    top: 365px;
+
+    float: left;
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 80%;
+    /* identical to box height, or 96px */
+
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+
+    /* Blue */
+
+    color: #2DA6B1;
+}
+
+.chewy {
+    position: absolute;
+    width: 780px;
+    height: 96px;
+    left: 545px;
+    top: 365px;
+
+    float: left;
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 80%;
+    /* identical to box height, or 96px */
+
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+
+    /* Blue */
+
+    color: #F35669;
+}

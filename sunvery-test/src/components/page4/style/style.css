@@ -1,0 +1,145 @@
+.page4 {
+    position: absolute;
+    width: 1440px;
+    height: 825px;
+
+    top: -50px;
+    /* White */
+
+    background: #FFFFFF;
+}
+
+.benefits {
+    position: absolute;
+    width: 397px;
+    height: 80px;
+    left: 119px;
+    top: 284px;
+
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 80%;
+    /* identical to box height, or 80px */
+
+    text-align: right;
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+
+    /* Blue */
+
+    color: #2DA6B1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 60px;
+    gap: 21px;
+
+    position: absolute;
+    width: 375px;
+    height: 270px;
+
+    /* Blue */
+    border-radius: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+
+    width: 390px;
+    height: 32px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.row-text {
+    width: 290px;
+    height: 32px;
+
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80%;
+    /* identical to box height, or 32px */
+
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.row-img {
+    width: 40px;
+    height: 32px;
+
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80%;
+    /* identical to box height, or 32px */
+
+    letter-spacing: 0.017em;
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card-text {
+    width: 370px;
+    height: 93px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    /* or 31px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

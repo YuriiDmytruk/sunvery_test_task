@@ -28,7 +28,7 @@ export default function DogAnimation() {
   });
 
   return (
-    <div className="container">
+    <div className="dogAnimation">
       <div className="elipse" />
       <div className="imageContainer" onClick={onClick}>
         <animated.img style={AnimTop} src={top} className="imageTop" />
