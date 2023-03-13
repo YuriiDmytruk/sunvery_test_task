@@ -1,4 +1,5 @@
 import React from "react";
+import ReactCurvedText from "react-curved-text";
 
 import "./style/style.css";
 
@@ -17,9 +18,32 @@ export default function Page3() {
       <div className="elipse-3" />
       <div className="elipse-4" />
       <div className="elipse-5" />
-      <div className="text-group"></div>
+      <div className="text-group">
+        <div className="curved-text">
+          <ReactCurvedText
+            width={200}
+            height={200}
+            cx={45}
+            cy={75}
+            rx={87}
+            ry={70}
+            startOffset={170}
+            reversed={true}
+            text="DRAG TO CHANGE"
+            textProps={{
+              style: {
+                fontFamily: "Inter",
+                fontStyle: "normal",
+                fontWeight: 400,
+                fontSize: "12px",
+                lineHeight: "140%",
+              },
+            }}
+            textPathProps={{ style: { fill: "white" } }}
+          />
+        </div>
+      </div>
       <div className="one">1</div>
-
       <div className="elipse-6" />
       <div className="elipse-7" />
     </div>

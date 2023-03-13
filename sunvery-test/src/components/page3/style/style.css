@@ -212,12 +212,10 @@
     box-sizing: border-box;
 
     position: absolute;
-    width: 139px;
-    height: 139px;
+    width: 140px;
+    height: 140px;
     left: 1392.05px;
     top: 352.81px;
-
-    /* White */
 
     border: 2px solid #FFFFFF;
     border-radius: 50%;
@@ -298,5 +296,15 @@
     align-items: center;
     letter-spacing: 0.1em;
 
-    color: #FFFFFF;
+
+}
+
+.curved-text {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 9px;
+    top: 3px;
+
+    transform: rotate(225deg);
 }
