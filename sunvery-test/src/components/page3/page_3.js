@@ -3,21 +3,26 @@ import ReactCurvedText from "react-curved-text";
 
 import "./style/style.css";
 
-import img2 from "./img/img-2.png";
-import img3 from "./img/img-3.png";
-//import elipse from "./img/elipse.png";
+import greenBoot from "./img/img-2.png";
+import purpleBoot from "./img/img-3.png";
 
 export default function Page3() {
   return (
     <div className="page3">
       <Text />
-      <img src={img2} alt="img2" className="img-2-p-3" />
-      <img src={img3} alt="img3" className="img-3-p-3" />
+      <img src={greenBoot} alt="green" className="img-2-p-3" />
+      <img src={purpleBoot} alt="purple" className="img-3-p-3" />
+      {/*big border elipse */}
       <div className="elipse-1" />
+      {/*//big filled elipse whith 1*/}
       <div className="elipse-2" />
+      {/*//medium filed elipse on big border elipse up*/}
       <div className="elipse-3" />
+      {/*//medium filed elipse on big border elipse down*/}
       <div className="elipse-4" />
+      {/*//small border elipse*/}
       <div className="elipse-5" />
+      {/*/ / div to hide part of small elipse*/}
       <div className="text-group">
         <div className="curved-text">
           <ReactCurvedText
@@ -43,8 +48,11 @@ export default function Page3() {
           />
         </div>
       </div>
+      {/*// number 1 in big filled elipse*/}
       <div className="one">1</div>
+      {/*//small filed elipse on small border elipse up*/}
       <div className="elipse-6" />
+      {/*//small filed elipse on small border elipse down*/}
       <div className="elipse-7" />
     </div>
   );

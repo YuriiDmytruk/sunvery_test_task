@@ -28,9 +28,13 @@ export default function App() {
     }
   };
 
-  const duration = 1000;
+  //bootAnimation can change position of boot but but animation of
+  //changing boot from to another was made in boot1-2animation and
+  //boot2-3animation css files so if you want to change animation
+  //time here you also should change it in css files
+  const durationOfBootAnimation = 1000;
 
-  const AnimBoot = useSpring({
+  const bootAnimation = useSpring({
     from:
       step === 0
         ? {
@@ -93,9 +97,10 @@ export default function App() {
             backgroundSize: "478px 419px",
           }
         : {},
-    config: { duration: duration },
+    config: { duration: durationOfBootAnimation },
   });
 
+  //pages change animation
   const transitions = useTransition(step, {
     from: step === 0 ? { opacity: 1 } : { opacity: 0 },
     enter: { opacity: 1 },
@@ -107,7 +112,7 @@ export default function App() {
       <animated.div
         className="boot"
         alt="boot"
-        style={AnimBoot}
+        style={bootAnimation}
         id={step === 2 ? "boot1-2" : step === 3 ? "boot2-3" : ""}
       />
       {transitions((style, step) => (
