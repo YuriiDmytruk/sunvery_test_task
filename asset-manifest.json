@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sunvery_test_task/static/css/main.a4858445.css",
+    "main.js": "/sunvery_test_task/static/js/main.36fb8ca9.js",
+    "static/media/boot_3.png": "/sunvery_test_task/static/media/boot_3.c497a848fff3e3b1d80c.png",
+    "static/media/boot_1.png": "/sunvery_test_task/static/media/boot_1.4a97abf0e61cac100bba.png",
+    "static/media/boot_2.png": "/sunvery_test_task/static/media/boot_2.66507cf7ae3d98316f33.png",
+    "static/media/img-3.png": "/sunvery_test_task/static/media/img-3.3657200a1d99a17c3ce7.png",
+    "static/media/img-2.png": "/sunvery_test_task/static/media/img-2.5560528c9e49ba6bd5fe.png",
+    "static/media/bottom.png": "/sunvery_test_task/static/media/bottom.64fc8a2877791917bcb2.png",
+    "static/media/top.png": "/sunvery_test_task/static/media/top.74fabbddb56aa175c52d.png",
+    "index.html": "/sunvery_test_task/index.html",
+    "main.a4858445.css.map": "/sunvery_test_task/static/css/main.a4858445.css.map",
+    "main.36fb8ca9.js.map": "/sunvery_test_task/static/js/main.36fb8ca9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4858445.css",
+    "static/js/main.36fb8ca9.js"
+  ]
+}
